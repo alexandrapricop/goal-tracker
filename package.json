@@ -1,0 +1,24 @@
+{
+  "name": "goal-tracker",
+  "version": "1.0.0",
+  "description": "An app that allows you to track your goals and stay on top of them.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "goal-tracker"
+  },
+  "author": "Alexandra Pricop",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
